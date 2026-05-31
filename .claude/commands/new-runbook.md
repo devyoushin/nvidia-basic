@@ -10,7 +10,7 @@ description: GPU 운영 Runbook을 생성합니다. 사용법: /new-runbook <카
 
 1. 파일명: `runbook-{카테고리}-{작업명}.md`
 2. 저장 위치: `docs/{해당 카테고리}/`
-3. `templates/runbook.md` 템플릿 기반으로 작성
+3. `docs/templates/runbook.md` 템플릿 기반으로 작성
 
 ## 작성 시 필수 포함 사항
 

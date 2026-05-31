@@ -30,8 +30,8 @@ nvidia-smi, DCGM, 드라이버 관리, CloudWatch 연동 등 실무 내용 위�
 ## 참조 규칙 파일
 
 작업 시 아래 규칙 파일을 반드시 준수합니다:
-- `rules/doc-writing.md` — 문서 작성 스타일
-- `rules/nvidia-conventions.md` — nvidia-smi/DCGM 코드 작성 규칙
+- `docs/rules/doc-writing.md` — 문서 작성 스타일
+- `docs/rules/nvidia-conventions.md` — nvidia-smi/DCGM 코드 작성 규칙
 
 ## 사용 방법
 

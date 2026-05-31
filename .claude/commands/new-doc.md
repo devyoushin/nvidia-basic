@@ -11,9 +11,9 @@ description: NVIDIA GPU 신규 문서를 스캐폴딩합니다. 사용법: /new-
 ## 파일 생성 규칙
 1. 파일명: `{카테고리 약어}-{주제}.md` (모두 소문자, 단어 구분은 하이픈)
 2. 저장 위치: `docs/{카테고리}/`
-3. `rules/doc-writing.md` 의 문서 작성 규칙 준수
-4. `rules/nvidia-conventions.md` 의 nvidia-smi/DCGM 코드 규칙 준수
-5. `templates/gpu-doc.md` 템플릿 기반으로 작성
+3. `docs/rules/doc-writing.md` 의 문서 작성 규칙 준수
+4. `docs/rules/nvidia-conventions.md` 의 nvidia-smi/DCGM 코드 규칙 준수
+5. `docs/templates/gpu-doc.md` 템플릿 기반으로 작성
 
 ## 문서 구조 (반드시 아래 섹션 모두 포함)
 

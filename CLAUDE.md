@@ -17,17 +17,17 @@ nvidia-practice/
 │   ├── cuda/          (2개)           # CUDA/드라이버 호환성, 컨테이너 런타임
 │   └── troubleshooting/ (3개)        # Xid 에러, 드라이버 크래시, AWS 호스트 교체
 │
-├── scripts/                           # nvidia-smi 자동화 스크립트 (8개)
+├── ops/scripts/                           # nvidia-smi 자동화 스크립트 (8개)
 │
-├── templates/                         # 재사용 문서 템플릿
+├── docs/templates/                         # 재사용 문서 템플릿
 │   ├── gpu-doc.md                     # GPU 서비스 문서 스캐폴딩
 │   └── runbook.md                     # 운영 Runbook
 │
-├── rules/                             # Claude 작성 규칙
+├── docs/rules/                             # Claude 작성 규칙
 │   ├── doc-writing.md                 # 문서 스타일 가이드
 │   └── nvidia-conventions.md         # nvidia-smi/DCGM 코드 작성 규칙
 │
-├── agents/                            # Claude 전문 에이전트
+├── docs/agents/                            # Claude 전문 에이전트
 │   ├── gpu-doc-writer.md              # GPU 문서 작성 에이전트
 │   └── driver-troubleshooter.md      # 드라이버 장애 분석 에이전트
 │
@@ -73,7 +73,7 @@ docs/{카테고리}/{서비스}-{주제}.md
 4. **한국어 기술 문서** — 주요 개념은 영어 원문 병기
 5. **모니터링 필수** — 모든 문서에 CloudWatch 지표/알람 포함 (GPU 인스턴스 기준)
 
-세부 규칙은 `rules/` 디렉토리를 참조합니다.
+세부 규칙은 `docs/rules/` 디렉토리를 참조합니다.
 
 ---
 

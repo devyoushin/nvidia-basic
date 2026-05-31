@@ -7,7 +7,7 @@ description: 지식 베이스에서 키워드를 검색합니다. 사용법: /se
 ## 검색 범위
 
 - `docs/**/*.md` — 모든 지식 문서
-- `scripts/*.sh` — 자동화 스크립트
+- `ops/scripts/*.sh` — 자동화 스크립트
 - `CLAUDE.md` — 문서 목록 인덱스
 
 ## 검색 결과 출력 형식

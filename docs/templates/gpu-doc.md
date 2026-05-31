@@ -143,5 +143,5 @@ aws cloudwatch put-metric-alarm \
 - {현장 유용 팁 2}
 
 **관련 문서**
-- [NVIDIA 공식 문서]({URL})
+- NVIDIA 공식 문서: `{URL}`
 - 연관 내부 문서: `docs/{category}/{related-file}.md`
