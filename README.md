@@ -6,7 +6,7 @@ AWS NVIDIA GPU 인스턴스 운영을 위한 드라이버, `nvidia-smi`, DCGM, C
 
 - 문서 지도: `docs/README.md`
 - 운영/실습 자산: `ops/README.md`
-- AI 작업 지침: `CLAUDE.md`
+- AI 작업 지침: `CLAUDE.md`, `AGENTS.md -> CLAUDE.md`
 
 ## 구조
 
@@ -15,7 +15,8 @@ AWS NVIDIA GPU 인스턴스 운영을 위한 드라이버, `nvidia-smi`, DCGM, C
 | `docs/` | NVIDIA 드라이버, CUDA, DCGM, SMI, 모니터링, 트러블슈팅 문서 |
 | `ops/` | GPU 헬스체크와 CloudWatch metric publish 스크립트 |
 | `.claude/` | Claude Code 커맨드와 설정 |
-| `CLAUDE.md` | Claude 작업 지침 |
+| `CLAUDE.md` | Claude/Codex 공통 작업 지침 원본 |
+| `AGENTS.md -> CLAUDE.md` | Codex/agent 작업 지침 링크 |
 
 ## 학습 흐름
 
